@@ -1,0 +1,61 @@
+{
+  "name": "eat-vegetal-api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "start:watch": "nodemon src/server.js",
+    "test": "mocha -t 30000 --exit",
+    "test:load": "mocha -t 900000 --exit ./src/__tests__/load/index.test.js",
+    "test:routes": "mocha -t 120000 --exit ./src/__tests__/routes/index.test.js",
+    "test:unit": "mocha -t 120000 --exit ./src/__tests__/unit/index.test.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "lint:check": "eslint --print-config src/server.js | eslint-config-prettier-check",
+    "pretty": "prettier --write **/*.{js,json,md}"
+  },
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "restify": "8.5.1",
+    "restify-errors": "8.0.2",
+    "restify-router": "0.5.1"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-plugin-eslint-comments": "3.1.2",
+    "eslint-plugin-import": "2.20.0",
+    "eslint-plugin-jsdoc": "20.3.0",
+    "eslint-plugin-mocha": "6.2.2",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-promise": "4.2.1",
+    "husky": "3.1.0",
+    "lint-staged": "9.5.0",
+    "loadtest": "4.1.0",
+    "mocha": "7.0.0",
+    "nodemon": "2.0.2",
+    "prettier": "1.19.1",
+    "pretty-quick": "2.0.1",
+    "supertest": "4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxolidean/eat-vegetal-api"
+  },
+  "bugs": {
+    "email": "sergio.borromei@gmail.com",
+    "url": "https://github.com/maxolidean/eat-vegetal-api/issues"
+  },
+  "author": {
+    "email": "sergio.borromei@gmail.com",
+    "name": "Maxolidean"
+  },
+  "contributors": [
+    {
+      "email": "marcost@lagash.com",
+      "name": "Marcos Torres"
+    }
+  ]
+}
