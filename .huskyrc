@@ -1,6 +1,6 @@
 {
     "hooks": {
-        "pre-commit": "lint-staged && eslint .",
-        "pre-push": "eslint ."
+        /* "pre-commit": "lint-staged && eslint .",
+        "pre-push": "eslint ." */
     }
 }
