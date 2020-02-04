@@ -1,4 +1,4 @@
-const vegetables = require("../../../data/vegetables/index")
+const vegetables = require("../../../pages")
 const { Router } = require('restify-router');
 const router = new Router();
 
