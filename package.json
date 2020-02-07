@@ -15,6 +15,7 @@
     "pretty": "prettier --write **/*.{js,json,md}"
   },
   "dependencies": {
+    "@azure/cognitiveservices-customvision-prediction": "^4.0.0",
     "dotenv": "8.2.0",
     "restify": "8.5.1",
     "restify-errors": "8.0.2",
