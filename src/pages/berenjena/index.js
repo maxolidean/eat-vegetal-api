@@ -1,4 +1,5 @@
 module.exports = {
+    id: "berenjena",
     name: "Berenjena",
     family: "Solanáceas",
     origins: ["IN", "CH"],

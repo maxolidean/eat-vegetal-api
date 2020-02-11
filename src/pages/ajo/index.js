@@ -1,4 +1,5 @@
 module.exports = {
+    id: "ajo",
     name: "Ajo",
     family: "Amarilidáceas",
     origins: ["IN", "CH"],
@@ -46,7 +47,8 @@ module.exports = {
         "Y quemado es amargo y cae mal, no te hagas el vivo"
     ],
     funFacts: [
-        "Es una frutaChina es el primer productor de ajo, con el 66% de la producción mundial, Argentina el segundo con el 7%",
+        "Es una fruta.", 
+        "China es el primer productor de ajo, con el 66% de la producción mundial, Argentina el segundo con el 7%",
         "Es uno de los cultivos mas antiguos del hombre, hace mas de 6 milenios que comemos ajo",
         "En todas las civilizaciones se le atribuyen propiedades mágicas y medicinales",
         "Hay 300 variedades de ajo",
