@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   eat-vegetal-api:
-    image: maxolidean/eat-vegetal-api
+    image: comemasplantas.azurecr.io/eat-vegetal-api
     build:
       context: ./
       dockerfile: ./Dockerfile

@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  eat-vegetal-api:
+    image: comemasplantas.azurecr.io/eat-vegetal-api
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    environment:
+      API_PORT: 8080
+    command: node src/server.js
+    ports:
+      - 8080:8080
