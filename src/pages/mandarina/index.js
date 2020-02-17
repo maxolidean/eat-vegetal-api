@@ -50,7 +50,7 @@ module.exports = {
             type: "pairing",
             title: "Queda bien con",
             text: "Manteca, eneldo, menta, tomillo, perejil, papa, chauchas, ajo, limón, morrones, tomate, salsa de tomate, espinacas, huevo, hongos, espárragos, puerro, cebolla, echalotte, pimentón, azafrán, chorizo colorado, jamón crudo, jamón cocido, panceta, calamares, pescado blanco, quesos duros, queso de cabra, ricota, quesos picantes, crema, leche, arroz, pastas, almendras, avellanas",
-        }
+        },
         {
             order: 5,
             delay: 2000,
@@ -59,5 +59,4 @@ module.exports = {
             imageAlignment: "left"
         }
     ]
-
 }
