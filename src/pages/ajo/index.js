@@ -10,6 +10,7 @@ module.exports = {
             delay: 2000,
             type: "cover",
             familyColor: "dd4488ff",
+            fontSize: 12,
             familyText: "Amarilidáceas, o liláceas al igual que la cebolla, puerro o verdeo.",
             image: "http://comemasplantas.app/images/ajo-cover.png",
             imageAlignment: "center"
@@ -20,6 +21,7 @@ module.exports = {
             type: "info",
             image: "http://comemasplantas.app/images/ajo-info.png",
             imageAlignment: "left",
+            fontSize: 12,
             originText: "Asia central",
             varietiesText: "Blanco, negro, rosado, violeta, morado, colorado, castaño",
             harvestPlaceText: "Mendoza y San Juan"
@@ -28,6 +30,7 @@ module.exports = {
             order: 2,
             delay: 2000,
             type: "season",
+            fontSize: 14,
             title: "¿Cuando está más rico?",
             seasons: [5, 6]
         },
@@ -35,6 +38,7 @@ module.exports = {
             order: 3,
             delay: 3000,
             type: "tips",
+            fontSize: 12,
             tips: [
                 "Si tiene olor, y te lo deja en las manos, ya que picás, picá más, cubrilo con aceite y guardalo en la heladera.",
                 "Úsalo aplastado en salsas, salteados, en el horno.",
@@ -48,6 +52,7 @@ module.exports = {
             order: 4,
             delay: 3000,
             type: "tips",
+            fontSize: 12,
             tips: [
                 "Guardar dientes limpios o picados con aceite en frascos en la heladera.",
                 "Te podés sacar el olor a ajo de las manos frotándote las manos bajo agua fría con algo de acero inoxidable.",
@@ -61,7 +66,9 @@ module.exports = {
             order: 5,
             delay: 3000,
             type: "pairing",
+            titleFontSize: 14,
             title: "Queda bien con",
+            textFontSize: 12,
             text: "Todo: \n Ajo, jengibre, chile \n Ajo, perejil \n Ajo, albahaca, queso \n Ajo, hongos, limón \n Ajo, pimentón, oliva \n Ajo, vino blanco, limón \n Ajo, soja, vinagre \n Ajo, romero, pimienta",
         },
         {
