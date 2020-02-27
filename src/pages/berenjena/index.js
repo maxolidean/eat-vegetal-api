@@ -10,7 +10,7 @@ module.exports = {
             delay: 2000,
             type: "cover",
             familyColor: "dd4488ff",
-            fontSize: 12,
+            fontSize: 25,
             familyText: "Solanáceas, como el tomate, la papa y el morrón.",
             image: "http://comemasplantas.app/images/berenjena-cover.png",
             imageAlignment: "center"
@@ -21,7 +21,7 @@ module.exports = {
             type: "info",
             image: "http://comemasplantas.app/images/berenjena-info.png",
             imageAlignment: "left",
-            fontSize: 12,
+            fontSize: 25,
             originText: "India y China.",
             varietiesText: "Japonesa (menos amarga), negra (amarga y picante), blanca (suave, no se come la piel) y vetada (sabor mas delicado).",
             harvestPlaceText: "Centro y norte del país."
@@ -30,7 +30,7 @@ module.exports = {
             order: 2,
             delay: 2000,
             type: "season",
-            fontSize: 14,
+            fontSize: 35,
             title: "¿Cuando está más rico?",
             seasons: [0, 15]
         },
@@ -38,7 +38,7 @@ module.exports = {
             order: 3,
             delay: 3000,
             type: "tips",
-            fontSize: 12,
+            fontSize: 25,
             tips: [
                 "Es gauchita ,aguanta todo: Hervida, al vapor, brasas, apanada, parrilla, sarten, escabeche, horno, frita, hasta fuego directo.",
                 "Si la piel es fina, se come.",
@@ -52,7 +52,7 @@ module.exports = {
             order: 4,
             delay: 3000,
             type: "tips",
-            fontSize: 12,
+            fontSize: 25,
             tips: [
                 "Para congelar: cocida o al dente.",
                 "Entera en la hornalla o a las brasas, se pela sin lavar. La gloria misma.",
@@ -65,9 +65,9 @@ module.exports = {
             order: 5,
             delay: 3000,
             type: "pairing",
-            titleFontSize: 14,
+            titleFontSize: 35,
             title: "Queda bien con",
-            textFontSize: 12,
+            textFontSize: 25,
             text: "Comino, coriandro, pimentón, nuez moscada, romero, tomillo, yogurt, menta, albahaca, coco, curry, sésamo, vinagres, salsa de soja, verdeo, tomate, limón, cilantro, perejil, albahaca, queso, frutos secos, jengibre, ajo, aceitunas, miel, miso, panceta, lentejas, garbanzos, chiles, morrón, cebolla, alcaparras. Carnes todas, especialmente cordero.",
         },
         {

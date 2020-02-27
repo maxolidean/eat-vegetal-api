@@ -10,7 +10,7 @@ module.exports = {
             delay: 2000,
             type: "cover",
             familyColor: "dd4488ff",
-            fontSize: 12,
+            fontSize: 25,
             familyText: "Rutáceas, al igual que la naranja, limón y pomelo.",
             image: "http://comemasplantas.app/images/mandarina-cover.png",
             imageAlignment: "center"
@@ -21,7 +21,7 @@ module.exports = {
             type: "info",
             image: "http://comemasplantas.app/images/mandarina-info.png",
             imageAlignment: "left",
-            fontSize: 12,
+            fontSize: 25,
             originText: "Asia central",
             varietiesText: "Blanco, negro, rosado, violeta, morado, colorado, castaño",
             harvestPlaceText: "Mendoza y San Juan"
@@ -30,7 +30,7 @@ module.exports = {
             order: 2,
             delay: 2000,
             type: "season",
-            fontSize: 14,
+            fontSize: 35,
             title: "¿Cuando está más rico?",
             seasons: [0, 1, 2]
         },
@@ -38,7 +38,7 @@ module.exports = {
             order: 3,
             delay: 3000,
             type: "tips",
-            fontSize: 12,
+            fontSize: 25,
             tips: [
                 "Frescas o congeladas, un abismo con las de lata",
                 "Con manteca, un chorrito de jugo de limón y sal",
@@ -52,9 +52,9 @@ module.exports = {
             order: 4,
             delay: 3000,
             type: "pairing",
-            titleFontSize: 12,
+            titleFontSize: 25,
             title: "Queda bien con",
-            textFontSize: 12,
+            textFontSize: 25,
             text: "Manteca, eneldo, menta, tomillo, perejil, papa, chauchas, ajo, limón, morrones, tomate, salsa de tomate, espinacas, huevo, hongos, espárragos, puerro, cebolla, echalotte, pimentón, azafrán, chorizo colorado, jamón crudo, jamón cocido, panceta, calamares, pescado blanco, quesos duros, queso de cabra, ricota, quesos picantes, crema, leche, arroz, pastas, almendras, avellanas",
         },
         {
